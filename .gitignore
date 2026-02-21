@@ -141,14 +141,12 @@ js/node_modules
 js/test-results
 js/playwright-report
 js/*.tgz
-zarc/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
 Untitled*.ipynb
-!zarc/extension/zarc.json
-!zarc/extension/install.json
+zarc/extension
 zarc/nbextension
 zarc/labextension
 
@@ -157,3 +155,7 @@ zarc/labextension
 
 # Rust
 target
+
+# Hydra
+outputs/
+multirun/
