@@ -157,6 +157,11 @@ packages = [
     "Cargo.lock",
 ]
 exclude = [
+    "zarc/*.dll",
+    "zarc/*.dylib",
+    "zarc/*.so",
+    "zarc/extension",
+    "js/dist",
     "js/node_modules",
     "rust/Makefile",
     "target",
@@ -165,6 +170,9 @@ exclude = [
 [tool.hatch.build.targets.wheel]
 packages = [
     "zarc",
+]
+artifacts = [
+    "zarc/extension/**/*",
 ]
 exclude = [
     "js",
