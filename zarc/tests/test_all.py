@@ -1,4 +1,4 @@
-from zarc import *  # noqa
+from zarc import *
 
 
 def test_all():
