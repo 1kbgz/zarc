@@ -52,7 +52,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@playwright/test": "^1.62.0",
+    "@playwright/test": "^1.62.1",
     "cpy": "^13.2.2",
     "esbuild": "^0.28.2",
     "lightningcss": "^1.33.0",
